@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>multi class</title>
+    <style>
+      body {
+        background: gold;
+        color: white;
+        height: 100vh;
+        width: 100wh;
+        padding: 0;
+        margin: 0;
+      }
+      div {
+        height: 100px;
+        background: red;
+        margin: 1rem;
+      }
+      .colorclass {
+        color: blue;
+      }
+      .bigfont {
+        font-style: italic;
+      }
+      .colorclass .btn {
+        color: yellow;
+      }
+      .colorclass .bigfont .btn {
+        color: green;
+      }
+      span {
+        background-color: darkseagreen;
+      }
+      article {
+        background-color: aquamarine;
+      }
+      header {
+        background-color: orangered;
+      }
+      footer {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <header>my header in body</header>
+
+    <div class="colorclass">
+      heading
+
+      <div class="btn">new button1</div>
+      <div class="bigfont">content</div>
+      <div class="bigfont">
+        footer
+        <div class="btn">new button2</div>
+      </div>
+    </div>
+    <span>span is gok</span><span>address</span>
+    <address>
+      <address>
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br />
+        Visit us at:<br />
+        Example.com<br />
+        Box 564, Disneyland<br />
+        USA
+      </address>
+    </address>
+    <article>
+      <h1>Internet Explorer 9</h1>
+      <p>Windows Internet Explorer 9(缩写为 IE9 )在2011年3月14日21:00 发布。</p>
+    </article>
+    <div style="display: flex; background-color: darkorchid; overflow: hidden">
+      <div
+        style="float: left; background-color: aqua; flex-grow: 1; height: 90%"
+      >
+        left
+      </div>
+      <div style="float: right; background-color: darkorange; height: 70%">
+        r11111111ight
+      </div>
+    </div>
+    <footer>my footer</footer>
+  </body>
+</html>

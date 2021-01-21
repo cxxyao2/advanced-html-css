@@ -647,6 +647,9 @@ a {
   box-shadow: 0 0 0 3px #666;
   border-radius: 5px;
 }
+.nav_brand{
+  transform: translateY(5px);
+}
 
 @media screen and (min-width: 768px) {
   .nav_toggler {
@@ -656,5 +659,12 @@ a {
   .nav_list {
     width: auto;
     display: flex;
+    font-size:1.6rem;
+    max-height: 100%;
+    opacity: 1;
+  }
+
+  .nav_item{
+    border:0;
   }
 }
